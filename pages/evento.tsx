@@ -1,11 +1,11 @@
 import PrimarySearchAppBar from "./navbar";
-import PageInitial from "./page/home";
+import Evento from "./page/evento";
 
-export default function Home() {
+export default function EventoSelecionado() {
   return (
     <>
       <PrimarySearchAppBar />
-      <PageInitial />
+      <Evento />
     </>
   );
 }
